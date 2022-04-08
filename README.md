@@ -1,7 +1,10 @@
 crypto-deep-learning
 ==============================
 
-A short description of the project.
+Team Members:
+* Julio Oliveira
+* Rachana Sooraj
+* Manish Ranjan
 
 Project Organization
 ------------
