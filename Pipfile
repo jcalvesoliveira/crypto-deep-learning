@@ -12,6 +12,7 @@ scikit-learn = "*"
 
 [dev-packages]
 ipykernel = "*"
+notebook = "*"
 
 [requires]
 python_version = "3.8"
