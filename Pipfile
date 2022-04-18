@@ -10,6 +10,7 @@ plotly = "*"
 nbformat = "*"
 scikit-learn = "*"
 kaleido = "*"
+statsmodels = "*"
 
 [dev-packages]
 ipykernel = "*"
