@@ -14,7 +14,7 @@ We recommend using [Pipenv](https://github.com/pypa/pipenv) to reproduce this pr
 After installing pipenv just run:
 
 ```
-pipenv install
+pipenv install --dev
 ```
 
 This process will create the pipenv environment with all dependencies for this project. 
