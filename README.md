@@ -6,6 +6,27 @@ Team Members:
 * Rachana Sooraj
 * Manish Ranjan
 
+Python Environment
+------------------
+
+We recommend using [Pipenv](https://github.com/pypa/pipenv) to reproduce this project.
+
+After installing pipenv just run:
+
+```
+pipenv install
+```
+
+This process will create the pipenv environment with all dependencies for this project. 
+
+To activate the environment run:
+
+```
+pipenv shell
+```
+
+If using a Jupyter Notebook, select the Kernel created by this pipenv environment. 
+
 Project Organization
 ------------
 
@@ -26,27 +47,16 @@ Project Organization
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be       imported
     └── src                <- Source code for use in this project.
         ├── __init__.py    <- Makes src a Python module
         │
         │
-        ├── features       <- Scripts to turn raw data into features for modeling
-        │   └── build_features.py
-        │
-        ├── models         <- Scripts to train models and then use trained models to make
-        │   │                 predictions
-        │   ├── predict_model.py
-        │   └── train_model.py
-        │
-        └── visualization  <- Scripts to create exploratory and results oriented visualizations
-            └── visualize.py
+        ├── data       <- Scripts to turn raw data into features for modeling
+           └── make_dataset.py
+        
      
 
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+<p><small>Project organization based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
