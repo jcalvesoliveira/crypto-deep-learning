@@ -11,6 +11,9 @@ nbformat = "*"
 scikit-learn = "*"
 kaleido = "*"
 statsmodels = "*"
+fitter = "*"
+pygam = "*"
+seaborn = "*"
 
 [dev-packages]
 ipykernel = "*"
